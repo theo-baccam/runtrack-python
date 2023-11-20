@@ -1,7 +1,7 @@
 # MONTANT INITIAL DE L'INVESTISSEMENT:
 # Le capital de départ que l'investisseur met, la somme initiale.
 
-# TAUX DE RENDEMENT ANNUEL
+# TAUX DE RENDEMENT ANNUEL:
 # Le pourcentage du gain ou de la perte sur l'investissement.
 
 montant_initial = 4000

@@ -1,7 +1,8 @@
-# J'importe le module string, qui fournits des constants et fonction pour travailler
-# avec des strings.
 import string
 
-# Ensuite nous imprimons la constante `string.ascii_lowercase`, qui est une chaîne
-# caractère contenant  tous les lettres de l'alphabet en minuscule.
-print(string.ascii_lowercase)
+# Nous créeons ue nouvelle variable et nous utilisons découpage.
+# Le format pour le découpage est `[start:stop:step]`
+# Dans ce cas là, on laisse tout vide, à part le step, qu'on met à nombre négatif,
+# ce qui permet de lire le string à l'envers.
+abc_inv = string.ascii_lowercase[::-1]
+print(abc_inv)

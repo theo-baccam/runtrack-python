@@ -26,7 +26,7 @@ print("Suite à l'achat",
 print("")
 
 # `*=` est similaire à `-=`, mais pour la multiplication.
-produit['prix'] *= (( 110 / 100 ))
+produit['prix'] *= 1.1
 print("Suite à une hausse de prix de 10%",
 "\nNom:", produit['nom'], 
 "\nPrix:", produit['prix'],

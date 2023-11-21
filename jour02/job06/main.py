@@ -1,7 +1,8 @@
+# Algorithme qui vérifie si un nombre est un nombre premier via force brut.
 def check_prem(num):
     if int(num) <= 1:
         return False
-    elif int(num) == 2:
+    elif int(num) == 2:         # 2 est le seul nombre pair qui n'est pas exclus.
         return True
     elif int(num) % 2 == 0:
         return False

@@ -1,3 +1,8 @@
+# En tout, on a 3 variables:
+# * `n`, qui est l'integer que l'utilisateur choisi.
+# * `i`, qui est utilisé pour les boucles for
+# * `multi`, le multiplicateur
+
 n = input('Entrez un entier supérieur à zero (N) : ')
 multi = 1
 

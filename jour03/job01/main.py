@@ -1,4 +1,4 @@
 def My_print_hello():
-    return "Hello world"
+    print("Hello world")
 
-print(My_print_hello())
+My_print_hello()

@@ -1,4 +1,4 @@
 def inv(string):
-    print(string[::-1])
+    return(string[::-1])
 
-inv("nikana")
+print(inv("nikana"))

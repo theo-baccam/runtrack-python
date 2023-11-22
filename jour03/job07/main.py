@@ -1,5 +1,6 @@
 def dev_type(langage):
-    if langage == "JavaScript":
+    langage = langage.lower()   # Afin que ça soit case-insensitive
+    if langage == "javascript":
         print("tu es un développeur web")
     elif langage == "python":
         print("tu es un développeur IA")
@@ -11,7 +12,7 @@ def dev_type(langage):
         print("un jour, je serai le meilleur de développeur...")
     
 dev_type("JavaScript")
-dev_type("python")
+dev_type("pytHon")
 dev_type("java")
 dev_type("reactjs")
 dev_type("uhhhh")

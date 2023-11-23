@@ -1,6 +1,8 @@
 numbers = [22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50]
 
-rounded_numbers = [int(num) for num in numbers]
+rounded_numbers = [int(num) for num in numbers] # Transforme floats en integers
+
+# Bubble Sort
 
 n = 0
 for _ in rounded_numbers:

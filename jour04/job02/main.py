@@ -1,5 +1,6 @@
 def func_fruit():
     fruits = [ "pomme", "cerise", "orange"]
-    print(fruits[1])
+    return fruits[1]
 
-func_fruit()
+output = func_fruit()
+print(output)

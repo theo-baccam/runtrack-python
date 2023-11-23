@@ -1,8 +1,8 @@
 def func_fruit():
     fruits = ["pomme", "cerise", "orange", "Melon"]
-    print(fruits)
     fruits.pop(2)
     fruits.insert(2, "Mangue")
-    print(fruits)
+    return fruits
 
-func_fruit()
+fruit_output = func_fruit()
+print(fruit_output)

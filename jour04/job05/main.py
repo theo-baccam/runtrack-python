@@ -1,13 +1,13 @@
-def replace():
-    new_value = L[2] + L[4]
-    L.pop(3)
-    L.insert(3, new_value)
-    print(L)
+def replace(list_name):
+    new_value = list_name[2] + list_name[4]
+    list_name.pop(3)
+    list_name.insert(3, new_value)
 
 L = [ 5, 9, 18, 82, 37]
 
 print(L)
-print(L[2])
+print(L[1])
 
-replace()
+replace(L)
+print(L)
 print(L[-1])

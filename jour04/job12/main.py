@@ -7,7 +7,7 @@ liste_2 = [910, 3, 270, 19, 32]
 # Ca se répête jusqu'à que la liste soit complétement en ordre croissant.
 
 def bubble_sort(arr):
-    n = 0
+    n = 0           # Pour trouver la longuer de la liste sans len
     for _ in arr:
         n += 1
 

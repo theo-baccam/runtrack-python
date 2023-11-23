@@ -1,7 +1,7 @@
 def func_fruit():
     fruits = ["pomme", "cerise", "orange", "Melon"]
     print(fruits)
-    fruits.remove("orange")
+    fruits.pop(2)
     fruits.insert(2, "Mangue")
     print(fruits)
 

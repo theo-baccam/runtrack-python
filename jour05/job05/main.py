@@ -17,7 +17,8 @@ def true_to_caesar(input_msg,shift):
             # Si ce n'est pas une lettre de l'alphabet, pas besoin de la décaler.
             output_msg += char
 
-    print(output_msg)
+    return output_msg
 
 input_str = "The quick brown fox jumped over the lazy dog."
-true_to_caesar(input_str,3)
+tqbf_output = true_to_caesar(input_str,3)
+print(tqbf_output)

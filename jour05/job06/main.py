@@ -3,9 +3,10 @@ def lighthouse(steps, step_height):
     # en mètre.
     weekly = (steps * step_height) * 2 * 7 / 100
 
-    print(
+    return(
         f"Pour marcher {steps} marches de {step_height}cm, "
         f"le gardien parcourt {weekly}m par semaine."
     )
 
-lighthouse(40,7.5)
+phare_output = lighthouse(40,7.5)
+print(phare_output)

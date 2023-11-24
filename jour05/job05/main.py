@@ -1,12 +1,11 @@
-def true_to_caesar(input_msg,shift):
+def true_to_caesar(input_msg, shift):
     output_msg = ""
 
     for char in input_msg:
         # Si le caractère est une lettre de l'alphabet, faire un décalage
         if char.isalpha():
-
             # ord() permet d'obtenir l'unicode d'un caractère
-            offset = ord('A') if char.isupper() else ord('a')
+            offset = ord("A") if char.isupper() else ord("a")
 
             # Décalage
             # Modulo 26 permet de revenir à 0 au cas où on sort de l'alphabet.
@@ -19,6 +18,7 @@ def true_to_caesar(input_msg,shift):
 
     return output_msg
 
+
 input_str = "The quick brown fox jumped over the lazy dog."
-tqbf_output = true_to_caesar(input_str,3)
+tqbf_output = true_to_caesar(input_str, 3)
 print(tqbf_output)

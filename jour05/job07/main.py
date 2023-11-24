@@ -15,6 +15,7 @@ def luke_notes(input_list):
     ]
     return output_list
 
-notes = [ -2, 101, 39, 42, 83]
+
+notes = [-2, 101, 39, 42, 83]
 resultats = luke_notes(notes)
 print(resultats)

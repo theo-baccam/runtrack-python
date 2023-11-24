@@ -25,4 +25,5 @@ def diagonal_carpet(n):
 
     print(f"+{border_line}+")
 
+
 diagonal_carpet(10)

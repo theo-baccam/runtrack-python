@@ -1,8 +1,8 @@
 def triangle(height):
     if height <= 0:
         raise ValueError("Hauter invalide: Hauter doit être au dessus de 0")
-    l_diag = "/"        # Caractères pour côtés du triangle
-    r_diag = "\\"       # Il y a deux backslashes car '\' est un caarctère spécial
+    l_diag = "/"  # Caractères pour côtés du triangle
+    r_diag = "\\"  # Il y a deux backslashes car '\' est un caarctère spécial
 
     # Pour calculer la marge avant de dessiner
     empty_side = height - 1
@@ -25,6 +25,7 @@ def triangle(height):
         # Elargir l'espace à l'intérieur du triangle
         empty_side -= 1
         empty_mid += 2
+
 
 triangle(5)
 

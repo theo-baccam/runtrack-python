@@ -13,7 +13,8 @@ def luke_notes(input_list):
         for i in input_list
         if 0 < i < 100
     ]
-    print(output_list)
+    return output_list
 
 notes = [ -2, 101, 39, 42, 83]
-luke_notes(notes)
+resultats = luke_notes(notes)
+print(resultats)

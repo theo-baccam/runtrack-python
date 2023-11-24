@@ -27,4 +27,5 @@ def triangle(height):
         empty_mid += 2
 
 
-triangle(5)
+triangle_height = input("Choisissez une hauteur pour le triangle: ")
+triangle(int(triangle_height))

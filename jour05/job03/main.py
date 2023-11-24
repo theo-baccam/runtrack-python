@@ -28,5 +28,3 @@ def triangle(height):
 
 
 triangle(5)
-
-## Rajouter boucle si chiffre est négatif.

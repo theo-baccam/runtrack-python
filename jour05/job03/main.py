@@ -17,7 +17,7 @@ def triangle(height):
         if empty_mid == height * 2 - 2:
             empty_char_mid = "_" * empty_mid
 
-        # Desisiner le triangle
+        # Dessiner le triangle
         print(f"{empty_char}{l_diag}{empty_char_mid}{r_diag}")
 
         # Elargir l'espace à l'intérieur du triangle

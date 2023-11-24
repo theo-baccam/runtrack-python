@@ -1,4 +1,6 @@
 def triangle(height):
+    if height <= 0:
+        raise ValueError("Hauter invalide: Hauter doit être au dessus de 0")
     l_diag = "/"        # Caractères pour côtés du triangle
     r_diag = "\\"       # Il y a deux backslashes car '\' est un caarctère spécial
 

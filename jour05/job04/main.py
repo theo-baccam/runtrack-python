@@ -1,4 +1,6 @@
 def diagonal_carpet(n):
+    if n <= 0:
+        raise ValueError("Taille invalide, doit être au dessus de 0")
     # Bord pour le haut et le bas, n + 1 afin que la diagonale va correctement d'un
     # coin à l'autre.
     border_line = "-" * (n + 1)

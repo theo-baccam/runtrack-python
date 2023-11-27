@@ -1,22 +1,23 @@
 # L'algorithme qu'on utilise s'apelle le "Bubble Sort"
+
 def my_sort(input_list):
     # Dans le pire cas, ça prendra "n - 1" d'itérations pour ranger une liste avec bubble sort.
     # (n est le nombre d'élément dans une liste)
+
     for iteration in range(len(input_list)):
-        # Liste à part, car si on opère directement sur la liste durant une boucle for, les index changent.
+        # Liste à part, si on opère directement sur la liste durant une boucle for, les index changent.
         mod_list = []
-        # La variable is-sorted permet de déterminer si un échange s'est passé.
+        # Pour déterminer si un échange s'est passé.
         is_sorted = True
-        # last_value est la valeur de l'élément précédent.
+        # Valeur de l'élément précédent.
         last_value = None
-        # Il faut remettre les valeurs par défaut au début de chaque boucle, sinon on risque d'avoir
-        # une boucle infinie
+        # Faut mettre les valeurs par défaut au début de la boucle, sinon boucle infinie
 
         # La boucle pour échanger les places
         for index, value in enumerate(input_list):
-            # Si on n'est pas sur index 0 et que la valeur du nombre est plus petite que la précédente
+            # Si c'est pas index 0 et valeur du nombre est plus petite que le précédent.
             if last_value is not None and value < last_value:
-                # Insérer le nombre de 1 en arrière.
+                # Insérer le nombre de en arrière.
                 mod_list.insert(index - 1, value)
                 # Signaler que la liste est en désordre.
                 is_sorted = False

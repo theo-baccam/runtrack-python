@@ -1,9 +1,9 @@
 # L'algorithme qu'on utilise s'apelle le "Bubble Sort"
 
 def my_sort(input_list):
+
     # Dans le pire cas, ça prendra "n - 1" d'itérations pour ranger une liste avec bubble sort.
     # (n est le nombre d'élément dans une liste)
-
     for iteration in range(len(input_list)):
         # Liste à part, si on opère directement sur la liste durant une boucle for, les index changent.
         mod_list = []
